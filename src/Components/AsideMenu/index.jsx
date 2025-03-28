@@ -1,9 +1,6 @@
 import { MdHome } from "react-icons/md";
 import { RiBillLine } from "react-icons/ri";
 import { FaRegUser } from "react-icons/fa";
-import { CiMenuBurger } from "react-icons/ci";
-
-import { CiCircleList } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { MikrotikContext } from "../../Context";
@@ -44,7 +41,7 @@ const AsideMenu = () =>{
               <span className="hidden md:inline-block">Factura</span>
             </NavLink>
           </li>
-          <li className=" ">
+          <li>
             <NavLink
               onClick={() => context.setSelected("usuario")}
               className={`${
@@ -56,7 +53,7 @@ const AsideMenu = () =>{
               <FaRegUser className="w-6 h-6 max-md:mx-auto md:ml-4  md:w-6 md:h-6" />
               <span className="hidden md:inline-block ">Usuario</span>
             </NavLink>
-          </li>
+          </li>          
         </ul>
       </aside>
     );

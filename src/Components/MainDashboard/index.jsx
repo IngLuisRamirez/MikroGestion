@@ -15,8 +15,8 @@ const MainDashboard = () =>{
                 <CircleProgress progress={context.progress}/>
             </div>
             <div className="flex flex-col items-center bg-gray-50 w-80 h-80  shadow rounded-lg">
-                <h3 className="text-3xl mb-10">CPU Usage</h3>
-                <CircleProgress progress={context.progress}/>
+                <h3 className="text-3xl mb-10">User Active</h3>
+                <span className="text-9xl">{context.users.length}</span>
             </div>
         </div>
     )

@@ -4,6 +4,7 @@ import Layout from '../../Layout';
 import Menu from '../../Components/NavBarDashboard';
 import AsideMenu from '../../Components/AsideMenu';
 import MainContent from '../../Components/MainContent';
+import AddUser from '../../Components/AddUser';
 
 const Dashboard = () => {
     const context = useContext(MikrotikContext)
@@ -21,7 +22,7 @@ const Dashboard = () => {
           <Menu/>
           <div className="flex h-full">
             <AsideMenu/>
-            <MainContent/>
+            <MainContent/>            
           </div>
         </div>
       </Layout>

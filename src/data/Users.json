@@ -1,0 +1,32 @@
+[
+    { 
+        "id": 1, 
+        "name": "Juan Pérez", 
+        "email": "juan@example.com", 
+        "cedula": 9223214 ,
+        "ip": "192.168.4.2", 
+        "tel": 3113166256,
+        "estado": "Pendiente",
+        "deuda": 0
+    },
+    { 
+        "id": 2, 
+        "name": "María López", 
+        "email": "maria@example.com",
+        "cedula": 9223214 ,
+        "ip": "192.168.4.2", 
+        "tel": 3113166256,
+        "estado": "Pendiente",
+        "deuda": 0
+    },
+    {
+        "id": 3,
+        "name": "Luis Ramirez",
+        "cedula": 9223214 ,
+        "email": "lrm20023@gmail.com",
+        "ip": "192.168.4.2",
+        "tel": 3113166256,
+        "estado": "Pendiente",
+        "deuda": 0
+    }
+]
